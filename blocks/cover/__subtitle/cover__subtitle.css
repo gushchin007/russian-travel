@@ -1,15 +1,14 @@
 .cover__subtitle {
-  max-width: 360px;
+  width: calc(100% - 412px * 2);
   font-size: 18px;
   line-height: 22px;
   text-align: center;
   font-weight: 400;
   color: #fff;
-  margin: 0 auto;
+  margin: 0;
   position: absolute;
   top: 429px;
   left: 412px;
-  right: 412px;
   z-index: 2;
 }
 
@@ -18,7 +17,6 @@
     width: calc(100% - 332px * 2);
     top: 379px;
     left: 332px;
-    right: 332px;
   }
 }
 
@@ -26,8 +24,7 @@
   .cover__subtitle {
     width: calc(100% - 204px * 2);
     top: 299px;
-    left: 204px;
-    right: 204px;
+    left: 204px;;
   }
 }
 
@@ -36,6 +33,5 @@
     width: calc(100% - 16px * 2);
     top: 119px;
     left: 16px;
-    right: 16px;
   }
 }

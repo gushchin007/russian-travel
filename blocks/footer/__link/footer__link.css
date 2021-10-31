@@ -12,10 +12,6 @@
   opacity: 80%;
 }
 
-.footer__link:last-child {
-  margin-right: 0;
- }
-
  @media screen and (max-width: 320px) {
   .footer__link {
     margin-bottom: 32px;
