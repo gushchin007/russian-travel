@@ -1,0 +1,22 @@
+.place__link {
+  text-decoration-line: underline;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  font-weight: 400;
+  margin: 0 0 48px;
+  grid-area: link;
+  transition: opacity 0.5s ease;
+  justify-self: start;
+  align-self: start;
+ }
+
+.place__link:hover {
+  opacity: 80%;
+}
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    margin-bottom: 32px;
+  }
+}
