@@ -1,5 +1,5 @@
 # **Проект: Путешествие по России**
-[Яндекс Практикум](https://www.praktikum.yandex.ru "Яндекс Практикум")*
+Учебный проект в [Яндекс Практикум](https://www.praktikum.yandex.ru "Яндекс Практикум")
 
 *[Ссылка на GitHub](https://github.com/gushchin007/russian-travel)*
 
