@@ -9,3 +9,9 @@
   justify-self: start;
   align-self: end;
 }
+
+@media screen and (max-width: 320px) {
+  .place__url-heading {
+    margin-left: 16px;
+  }
+}
