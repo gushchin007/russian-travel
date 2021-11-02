@@ -9,6 +9,7 @@
     "image paragraph";
   margin-bottom: 80px;
   column-gap: 40px;
+  row-gap: 12px;
 }
 
 .place:last-child {
