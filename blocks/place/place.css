@@ -7,14 +7,14 @@
     "title link"
     "image paragraph"
     "image paragraph";
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   column-gap: 40px;
   row-gap: 12px;
 }
 
-.place:last-child {
-  margin-bottom: 92px;
- }
+.place:last-of-type {
+  padding-bottom: 0;
+}
 
 @media screen and (max-width: 1024px) {
   .place {
@@ -24,17 +24,14 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    margin-bottom: 73px;
+    padding-bottom: 73px;
     column-gap: 28px;
-  }
-  .place:last-child {
-    margin-bottom: 90px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     grid-template-columns: repeat(1, auto);
     grid-template-areas:
     "title"
@@ -42,8 +39,5 @@
     "link"
     "image"
     "paragraph";
-  }
-  .place:last-child {
-    margin-bottom: 66px;
   }
 }
