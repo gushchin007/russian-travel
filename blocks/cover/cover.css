@@ -1,6 +1,6 @@
 .cover {
   max-width: 1184px;
-  min-height: 740px;
+  height: 740px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -16,21 +16,21 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    min-height: 640px;
+    max-height: 640px;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    min-height: 480px;
+    max-height: 480px;
     width: 100%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .cover {
-    min-height: 200px;
+    max-height: 200px;
     width: 100%;
   }
 }

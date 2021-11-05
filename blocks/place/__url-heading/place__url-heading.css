@@ -6,11 +6,10 @@
   color: #aaa;
   letter-spacing: 2px;
   margin: 0;
-  justify-self: start;
   align-self: end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .place__url-heading {
     margin-left: 16px;
   }
