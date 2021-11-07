@@ -5,23 +5,17 @@
   line-height: 163%;
   color: #fff;
   font-weight: 400;
+  padding: 0;
 }
 
 .place__paragraph:last-child {
   margin-bottom: 0;
  }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
     margin-bottom: 25px;
     font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .place__paragraph {
-    margin-bottom: 25px;
-    margin-left: 16px;
-    font-size: 16px;
+    padding: 0 16px;
   }
 }

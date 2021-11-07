@@ -5,21 +5,21 @@
   font-weight: 400;
   color: #aaa;
   letter-spacing: 2px;
-  margin: 0 0 38px;
-  border: 1px solid red;
+  margin: 0 0 34px;
+  padding: 0;
+  align-self: end;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
-  align-self: end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__url-heading {
     margin-left: 16px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 4;
   }
 }
