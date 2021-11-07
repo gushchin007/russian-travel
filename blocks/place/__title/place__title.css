@@ -6,6 +6,11 @@
   color: #fff;
   margin: 0;
   grid-area: title;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border: 1px solid red;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,6 +24,10 @@
     max-width: 340px;
     font-size: 42px;
     line-height: 46px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
   }
 }
 

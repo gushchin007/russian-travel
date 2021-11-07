@@ -27,13 +27,6 @@
   .place {
     padding-bottom: 73px;
     column-gap: 28px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .place {
-    padding-bottom: 50px;
-    row-gap: 32px;
     grid-template-columns: repeat(1, auto);
     grid-template-areas:
     "title"
@@ -41,5 +34,12 @@
     "link"
     "image"
     "paragraph";
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    padding-bottom: 50px;
+    row-gap: 32px;
   }
 }
