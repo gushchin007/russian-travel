@@ -1,7 +1,7 @@
 .place__url-heading {
   grid-area: url;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 170%;
   font-weight: 400;
   color: #aaa;
   letter-spacing: 2px;
@@ -12,6 +12,12 @@
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__url-heading {
+    line-height: 12px;
+  }
 }
 
 @media screen and (max-width: 767px) {

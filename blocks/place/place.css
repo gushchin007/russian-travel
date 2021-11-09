@@ -1,11 +1,10 @@
 .place {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(3, auto);
   grid-template-areas:
     "title url"
     "title link"
-    "image paragraph"
     "image paragraph";
   padding-bottom: 80px;
   column-gap: 40px;

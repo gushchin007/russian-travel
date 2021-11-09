@@ -7,6 +7,9 @@
   margin: 0;
   grid-area: link;
   transition: opacity 0.5s ease;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  align-self: end;
 }
 
 .place__link:hover {
